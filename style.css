@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kaushan+Script&display=swap');
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background:#F8F9FA ;  
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagembolo { 
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    border-radius: 30%;
+}
+
+h1 { 
+    font-family: cedarville cursive;
+    color:#D62828;
+    font-size: 4em;
+    text-align: center;
+}
+header h2 { 
+    font-family: cursive;
+}
+header{ 
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px ;
+    align-items: center;
+    max-width: 500px;
+}
+
+main { 
+    text-shadow: 1px 0px 50px rgb(255, 255, 255) , 1px 1px 6px rgba(63, 63, 63, 0.589);
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    align-items: center;
+    max-width: 500px;
+    line-height: 1.2em;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #606C38;
+    border-radius: 30px;
+}
+#dicaouro { 
+    color: yellow;
+}
+
+#assinatura { 
+    color: white;
+    font-family: cedarville cursive;
+}
+
+footer { 
+    background-color: #606C38;
+    padding: 5px ;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p { 
+    padding: 0;
+    margin: 0;
+}
